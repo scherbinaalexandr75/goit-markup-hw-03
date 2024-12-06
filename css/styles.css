@@ -70,7 +70,7 @@ img {
 }
 
 .menu-box {
-align-items: center;
+  align-items: center;
 }
 
 .menu-box ul li {
@@ -188,6 +188,7 @@ align-items: center;
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
