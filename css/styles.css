@@ -287,6 +287,12 @@ img {
 /* Section 3 */
 .section-our-team {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.list-sec-three {
+  display: flex;
+  gap: 24px;
 }
 
 .our-team-backcolor {
