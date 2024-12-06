@@ -71,6 +71,8 @@ img {
 
 .menu-box {
   align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-box ul li {
@@ -87,8 +89,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  /* padding-top: 24px;
+  padding-bottom: 24px; */
 }
 
 .menu-studio:hover {
