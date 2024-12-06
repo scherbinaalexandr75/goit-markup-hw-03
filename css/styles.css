@@ -50,7 +50,6 @@ img {
 .menu-box {
   display: flex;
   gap: 76px;
-  /* padding-top: 24px; */
 }
 
 .header-logo {
@@ -64,7 +63,6 @@ img {
   color: #4d5ae5;
   margin-left: 156px;
   margin-right: 76px;
-  /* margin-bottom: 24px;  */
 }
 
 .logo-studio {
@@ -85,11 +83,11 @@ img {
 }
 
 .menu-item {
-  /* display: flex;  */
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .menu-studio:hover {
@@ -106,17 +104,14 @@ img {
 
 .link-itm-studio {
   color: #2e2f42;
-  /* padding-left: 76px; */
 }
 
 .link-itm-portfolio {
   color: #2e2f42;
-  /* padding-left: 40px; */
 }
 
 .link-itm-contacts {
   color: #2e2f42;
-  /* padding-left: 40px; */
 }
 
 .link-itm-studio:hover {
@@ -145,8 +140,6 @@ img {
 
 .address {
   font-style: normal;
-  /* display: flex; */
-  /* padding-top: 24px; */
 }
 
 .list-addr {
@@ -162,14 +155,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding-left: 332px; */
 }
 
 .address-itm-tel {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  /* padding-left: 40px; */
 }
 
 .address-itm-tel:hover {
