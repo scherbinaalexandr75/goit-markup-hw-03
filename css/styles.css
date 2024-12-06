@@ -207,10 +207,7 @@ img {
 .section-one {
   width: 1128px;
   height: 600px;
-  /*  display: flex;
-  display: inline-block; 
-  justify-content: center;
-  align-items: center; */
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -221,8 +218,8 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
-  width: 496px;
-  height: 120px;
+  max-width: 496px;
+  /* height: 120px; */
   margin: 0px auto;
   padding-top: 188px;
 }
