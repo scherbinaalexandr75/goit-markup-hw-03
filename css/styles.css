@@ -308,6 +308,12 @@ img {
 }
 
 /* Section 4 */
+
+.section-four {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-header {
   font-size: 36px;
   line-height: 1.11;
