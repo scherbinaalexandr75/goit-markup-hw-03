@@ -343,6 +343,10 @@ img {
   color: #2e2f42;
 }
 
+.card-text-sec {
+  padding: 32px 16px;
+}
+
 .card-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
