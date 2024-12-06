@@ -25,6 +25,10 @@ ol {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   width: 1128px;
   padding: 0 15px;
