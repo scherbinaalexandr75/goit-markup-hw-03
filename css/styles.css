@@ -36,6 +36,7 @@ img {
 }
 
 .header-box {
+  display: flex;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -72,6 +73,7 @@ img {
 
 .list-item {
   display: flex;
+
   gap: 40px;
 }
 
@@ -105,7 +107,10 @@ img {
 }
 
 .address {
+  display: flex;
   font-style: normal;
+  align-items: center;
+  margin-left: auto;
 }
 
 .list-addr {
