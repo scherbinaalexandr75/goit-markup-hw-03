@@ -27,7 +27,6 @@ ol {
 
 img {
   display: block;
-  /* max-width: 100%; */
 }
 
 .container {
@@ -37,20 +36,18 @@ img {
 }
 
 .header-box {
-  width: 1440px;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-box .container {
   display: flex;
-  justify-content: space-between;
   gap: 100px;
 }
 
 .menu-box {
   display: flex;
-  gap: 76px;
+  align-items: center;
 }
 
 .header-logo {
@@ -62,16 +59,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-left: 156px;
   margin-right: 76px;
 }
 
 .logo-studio {
   color: #2e2f42;
-}
-
-.menu-box {
-  align-items: center;
 }
 
 .menu-box ul li {
@@ -100,43 +92,15 @@ img {
 
 .link-itm {
   color: #2e2f42;
-}
-
-.link-itm-studio {
-  color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.link-itm-portfolio {
-  color: #2e2f42;
-}
-
-.link-itm-contacts {
-  color: #2e2f42;
-}
-
-.link-itm-studio:hover {
+.link-itm:hover {
   color: #404bbf;
 }
 
-.link-itm-portfolio:hover {
-  color: #404bbf;
-}
-
-.link-itm-contacts:hover {
-  color: #404bbf;
-}
-
-.link-itm-portfolio:focus {
-  color: #404bbf;
-}
-
-.link-itm-contacts:focus {
-  color: #404bbf;
-}
-
-.link-itm-studio:focus {
+.link-itm:focus {
   color: #404bbf;
 }
 
@@ -186,6 +150,10 @@ img {
   padding: 100px 0;
 }
 
+.footer .container {
+  padding-left: 0px;
+}
+
 .footer-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -196,10 +164,17 @@ img {
   color: #4d5ae5;
   display: inline-block;
   margin-bottom: 16px;
+  width: 115px;
 }
 
 .footer-text {
-  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 264px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 /* Section 1 */
