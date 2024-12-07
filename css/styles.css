@@ -27,6 +27,7 @@ ol {
 
 img {
   display: block;
+  /* max-width: 100%; */
 }
 
 .container {
@@ -196,6 +197,11 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+.footer-text {
+  display: flex;
+}
+
 /* Section 1 */
 
 .section-one {
@@ -272,7 +278,7 @@ img {
 }
 
 .list-item-two {
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
 }
 
 .section-head-two {
@@ -298,7 +304,7 @@ img {
 .list-sec-three {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -308,7 +314,7 @@ img {
 
 .our-team-backcolor {
   background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
+  width: calc ((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -354,7 +360,7 @@ img {
 }
 
 .first-item-list {
-  width: calc((100% - 48px) / 3);
+  width: calc ((100% - 48px) / 3);
 }
 
 .card-header {
